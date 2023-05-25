@@ -28,7 +28,7 @@ h1{
     line-height: 25px;
 }
 
-.clearfix{
+.clearfix:after{
     content: "";
     display: table;
     clear: both;
@@ -50,7 +50,6 @@ h1{
     box-shadow: 2px 2px 15px rgb(127, 127, 127);
     margin-bottom: 50px;
     background-color: rgb(15, 14, 23);
-    height: 100px;
     width: 100%;
 }
 
@@ -67,6 +66,8 @@ h1{
     padding-left: 20px;
     float: left;
     color: white;
+    line-height: 30px;
+    padding-top: 5px;
 }
 
 .member-name{
